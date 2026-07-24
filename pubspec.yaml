@@ -1,0 +1,133 @@
+name: storyverse
+description: A production-ready Story Book application with premium features.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # Firebase
+  firebase_core: ^24.0.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.5.0
+  firebase_messaging: ^14.7.0
+  
+  # UI & Material
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.2.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  
+  # Audio
+  audioplayers: ^5.2.0
+  audio_service: ^0.18.10
+  
+  # Connectivity
+  connectivity_plus: ^5.0.0
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  dio: ^5.3.0
+  image_picker: ^1.0.4
+  permission_handler: ^11.4.0
+  http: ^1.1.0
+  
+  # PDF & Documents
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  
+  # Analytics & Ads
+  google_mobile_ads: ^4.0.0
+  firebase_analytics: ^10.7.0
+  
+  # Voice & AI
+  speech_to_text: ^6.3.0
+  text_to_speech: ^0.2.3
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  
+  # Rich Text Editor
+  html_editor_enhanced: ^2.8.0
+  flutter_quill: ^9.2.0
+  
+  # Video
+  video_player: ^2.7.0
+  
+  # Rating
+  flutter_rating_bar: ^4.0.1
+  
+  # Share
+  share_plus: ^7.2.0
+  
+  # In-App Purchase
+  in_app_purchase: ^3.1.0
+  
+  # Device Info
+  device_info_plus: ^9.1.1
+  package_info_plus: ^5.0.1
+  
+  # URL Launcher
+  url_launcher: ^6.2.0
+  
+  # Image Manipulation
+  image: ^4.1.0
+  flutter_image_compress: ^0.0.29
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+    - assets/lottie/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
